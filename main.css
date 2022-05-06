@@ -1,0 +1,149 @@
+header {
+  font-family: Poppins;
+  text-align: center;
+  color: white;
+  margin: 4vw auto 3vw auto;
+  text-shadow: 5px 5px 11px rgba(0, 0, 0, 0.3);
+}
+#title {
+  font-size: 400%;
+}
+#description {
+  font-size: 150%;
+  margin-top: -1.5vw;
+}
+#main {
+  font-family: Poppins;
+  background-size: cover;
+  background: linear-gradient(-5deg, #982bc5, 50%, #371de2, 90%, #371de2);
+}
+#form-box {
+  position: relative;
+  background-color: white;
+  max-width: 590px;
+  height: auto;
+  margin: auto auto 100px auto;
+  padding: 30px 50px 60px 50px;
+  border-radius: 15px;
+  box-shadow: 15px 15px 50px 10px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  color: #530dd1;
+  z-index: 1;
+}
+.entry {
+  width: 100%;
+  margin: 5px auto 5px auto;
+  font-size: 18px;
+  font-family: Poppins;
+  border-color: #8d10ef;
+  border-radius: 6px;
+  border-width: 1px;
+}
+
+#name {
+  height: 23px;
+  box-sizing: border-box;
+}
+#email {
+  height: 23px;
+  box-sizing: border-box;
+}
+#number {
+  height: 23px;
+  box-sizing: border-box;
+}
+#tel {
+  height: 23px;
+  box-sizing: border-box;
+}
+#dropdown {
+  height: 26px;
+}
+#textarea {
+  height: 100px;
+  box-sizing: border-box;
+}
+
+#submit {
+  background-color: #8d10ef;
+  border: none;
+  color: white;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: Poppins;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  font: var(--fa-font-solid);
+  content: "\f135";
+  transform: rotate(45deg);
+  position: absolute;
+  opacity: 0;
+  top: 15%;
+  right: 20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 30px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.shooting-star {
+  position: relative;
+  height: 2px;
+  width: 20vw;
+  background: linear-gradient(
+    -90deg,
+    white,
+    10%,
+    #dfa620,
+    50%,
+    #df20b8,
+    #4079ff
+  );
+  transform: rotate(45deg);
+}
+.shooting-star1 {
+  left: 10vw;
+}
+.shooting-star2 {
+  left: 15vw;
+  top: 10vw;
+}
+.shooting-star3 {
+  left: 5vw;
+  top: 30vw;
+}
+.shooting-star4 {
+  left: 47vw;
+  top: -5vw;
+}
+.shooting-star5 {
+  left: 75vw;
+  top: 26vw;
+}
+.shooting-star6 {
+  left: 73vw;
+  top: 21vw;
+}
+.fa-rocket {
+  transform: scale(1.8, 1.8) rotate(45deg);
+}
